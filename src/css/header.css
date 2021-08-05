@@ -1,0 +1,9 @@
+.header {
+  width: 100vw;
+  height: 300px;
+  background-image: linear-gradient(to right, rgb(0, 0, 88), rgb(0, 191, 255));
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #f3f3f3;
+}
