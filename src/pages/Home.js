@@ -7,8 +7,12 @@ const Home = (props) => {
     return (
         <div className="home">
             <Header pageName="Home"/>
-            <div className="home-about" id="about">About Section</div>
-            <div className="home-projects"></div>
+            <div className="home-about" id="about">
+                <h1>About Me</h1>
+            </div>
+            <div className="home-projects">
+                <h1>Highlighted Projects</h1>
+            </div>
             <Footer/>
         </div>
     );

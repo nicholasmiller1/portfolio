@@ -4,7 +4,7 @@
   width: 100vw;
   height: fit-content;
   padding: 30px 0;
-  background-color: #4a4a4a;
+  background-color: #949494;
   text-align: center;
 }
 
@@ -18,7 +18,7 @@
 
 .socials > a {
   padding: 15px;
-  color: #f3f3f3;
+  color: #ffffff;
   font-size: 25px;
 }
 
@@ -27,7 +27,7 @@
 }
 
 #footer-resume {
-  color: #f3f3f3;
+  color: #ffffff;
   text-decoration: none;
   font-family: Roboto, futura-pt, Futura, sans-serif;
   font-weight: 700;
@@ -40,5 +40,5 @@
 }
 
 #footer-resume:hover {
-  color: #c4c4c4;
+  color: #d5d5d5;
 }

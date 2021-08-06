@@ -5,7 +5,7 @@ import {HiMail} from 'react-icons/hi';
 
 const Footer = (props) => {
     return (
-        <div className="footer">
+        <div className="footer" id="contact">
             <div className="socials">
                 <a href="mailto:nicholascmiller123@gmail.com"><HiMail/></a>
                 <a href="https://www.linkedin.com/in/nicholas-c-miller-14a088205/" target="_blank" rel="noreferrer"><FaLinkedin/></a>
