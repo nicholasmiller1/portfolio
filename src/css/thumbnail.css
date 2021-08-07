@@ -1,0 +1,13 @@
+.thumbnail {
+  width: 20%;
+  max-width: 300px;
+  height: auto;
+  box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.164);
+  background-color: #f0f0f0;
+  margin: 30px 15px;
+}
+
+.thumbnail-image {
+  width: 100%;
+  height: auto;
+}

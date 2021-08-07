@@ -1,17 +1,13 @@
 import React from 'react';
 import '../css/thumbnail.css';
-import {Link} from 'react-router-dom';
 
-const Thumbnail = ({link, image, title, category}) => {
+const Thumbnail = ({link, image, title, description}) => {
     return (
         <div className="thumbnail">
-            <Link to={link}>
-                <div className="thumbnail-image">
-                    <img src={image} alt="Thumbnail"/>
-                </div>
-                <div className="thumbnail-title">{title}</div>
-                <div className="thumbnail-categroy">{category}</div>
-            </Link>
+            <img className="thumbnail-image" src={image} alt="Thumbnail"/>
+            <h4 className="thumbnail-title">{title}</h4>
+            <p className="thumbnail-description">{description}</p>
+            <a href={link} className="thumbnail-link" target="_blank" rel="noreferrer">See the code</a>
         </div>
     );
 }
