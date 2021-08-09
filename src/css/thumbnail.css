@@ -5,9 +5,42 @@
   box-shadow: 5px 5px 3px rgba(0, 0, 0, 0.164);
   background-color: #f0f0f0;
   margin: 30px 15px;
+  padding: 20px;
+  padding-bottom: 15px;
 }
 
 .thumbnail-image {
   width: 100%;
   height: auto;
+}
+
+.thumbnail-title {
+  text-transform: uppercase;
+  text-align: left;
+  border-bottom: 3px solid #88aed0;
+  margin: 0 0 15px 0;
+  font-size: 25px;
+  letter-spacing: 3px;
+  font-family: Anton, sans-serif;
+  font-weight: 500;
+}
+
+.thumbnail-description {
+  margin: 0 0 30px 0;
+  padding: 0;
+  text-align: left;
+  font-family: Roboto, sans-serif;
+  line-height: 1.3em;
+}
+
+.thumbnail-link {
+  float: right;
+  color: #3d91db;
+  text-decoration: none;
+  margin-top: 10px;
+  /* margin: 10px 15px; */
+}
+
+.thumbnail-link:hover {
+  color: #88aed0;
 }

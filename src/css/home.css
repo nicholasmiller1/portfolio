@@ -1,3 +1,10 @@
+h1 {
+  font-size: 50px;
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: 900;
+  letter-spacing: 0.0625em;
+}
+
 #about {
   background-color: #949494;
   padding: 5em 2em;
@@ -22,14 +29,14 @@
   text-align: left;
   border-bottom: 10px solid #88aed0;
   padding-bottom: 10px;
-  font-size: 40px;
-  font-family: Roboto, futura-pt, Futura, sans-serif;
-  font-weight: 900;
-  letter-spacing: 5px;
 }
 
 .home-about > span {
   grid-area: b;
+  font-family: Roboto, sans-serif;
+  text-align: left;
+  line-height: 1.3em;
+  /* letter-spacing: 1px; */
 }
 
 .home-about > img {
@@ -40,6 +47,19 @@
   margin: auto;
 }
 
+.home-projects > h1 {
+  text-align: center;
+  margin-bottom: 5px;
+}
+
+.home-projects > h3 {
+  margin: 0;
+  margin-bottom: 15px;
+  text-align: center;
+  font-family: "Source Pro Sans", Raleway, sans-serif;
+  letter-spacing: 0.05em;
+}
+
 #home-project-container {
   margin: 0 auto;
   max-width: 1300px;
@@ -47,9 +67,23 @@
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: space-evenly;
-  padding: 1em 2em 5em 2em;
+  padding: 1em 2em;
 }
 
 #home-project-container > * {
   flex: 1 0 33%;
+}
+
+#projects-button {
+  display: inline-block;
+  color: black;
+  border: 2px inset black;
+  text-decoration: none;
+  padding: 10px 15px;
+  margin-bottom: 5%;
+  background-color: #e7e7e7;
+}
+
+#projects-button:hover {
+  background-color: #a7a7a7;
 }
