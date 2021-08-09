@@ -8,7 +8,7 @@ import {HashLink as Link} from 'react-router-hash-link';
 const Home = (props) => {
     return (
         <div className="home">
-            <Header pageName="Home"/>
+            <Header title="Nicholas Miller" subtitle="Motivated and passionate software developer" image/>
             <section id="about">
                 <div className="home-about">
                     <h1>About Me</h1>

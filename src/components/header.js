@@ -1,13 +1,13 @@
 import React from 'react';
 import '../css/header.css';
 
-const Header = () => {
+const Header = ({title, subtitle, image}) => {
     return (
         <div className="header">
-            <img id="header-photo"src={require('../assets/header-photo.jpg').default} alt="Header Profile"/>
+            {image && <img id="header-photo"src={require('../assets/header-photo.jpg').default} alt="Header Profile"/>}
             <div id="header-text">
-                <h1>Nicholas Miller</h1>
-                <p>Motivated and passionate software developer</p>
+                <h1>{title}</h1>
+                <p>{subtitle}</p>
             </div>
         </div>
     );
