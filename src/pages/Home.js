@@ -16,7 +16,7 @@ const Home = (props) => {
                     <span>
                         <p>My name is Nicholas Miller and I am a 2nd year undergraduate student at the University of Virginia 
                             majoring in Computer Science and minoring in Engineering Business. I enjoy working in a wide variety 
-                            of fields of software development ranging from computer vision to ai and machine learning to robotics. 
+                            of fields of software development ranging from computer vision to AI and machine learning to robotics. 
                             I try to learn something new or improve upon old skills with every project.
                         </p> 
                         <p>Outside of school and work, I also enjoy a number of other hobbies. These include rock climbing, archery,

@@ -17,7 +17,7 @@
 .thumbnail-title {
   text-transform: uppercase;
   text-align: left;
-  border-bottom: 3px solid #88aed0;
+  border-bottom: 3px solid var(--primary-color);
   margin: 0 0 15px 0;
   font-size: 25px;
   letter-spacing: 3px;
@@ -42,5 +42,5 @@
 }
 
 .thumbnail-link:hover {
-  color: #88aed0;
+  color: var(--primary-color);
 }

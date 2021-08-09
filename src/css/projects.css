@@ -1,5 +1,5 @@
 .projects {
-  background-color: white;
+  background-color: var(--white);
 }
 
 .projects-list {
@@ -10,7 +10,7 @@
   flex-wrap: wrap;
   justify-content: space-evenly;
   padding: 1em 2em;
-  background-color: #fff;
+  background-color: var(--white);
 }
 
 .projects-list > * {

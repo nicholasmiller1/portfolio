@@ -6,9 +6,9 @@ h1 {
 }
 
 #about {
-  background-color: #949494;
+  background-color: var(--secondary-color);
   padding: 5em 2em;
-  color: #f7f7f7;
+  color: var(--white);
 }
 
 .home-about {
@@ -28,7 +28,7 @@ h1 {
   margin: 0;
   grid-area: a;
   text-align: left;
-  border-bottom: 10px solid #88aed0;
+  border-bottom: 10px solid var(--primary-color);
   padding-bottom: 10px;
 }
 

@@ -1,3 +1,11 @@
+html {
+  --primary-color: #88aed0;
+  --secondary-color: #848484;
+  --white: #fff;
+  --off-white: #f4f4f4;
+  --light-gray: #c4c4c4;
+}
+
 .App {
   text-align: center;
 }
@@ -19,7 +27,7 @@
 
 .nav-item {
   float: right;
-  color: #88aed0;
+  color: var(--primary-color);
   text-decoration: none;
   font-family: Roboto, futura-pt, Futura, sans-serif;
   font-weight: 700;
@@ -33,5 +41,5 @@
 }
 
 .nav-item:hover {
-  color: #949494;
+  color: (--secondary-color);
 }
