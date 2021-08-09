@@ -10,12 +10,12 @@ function App() {
     <Router>
       <div className="App">
 
-        <Route exact path="/" component={Home} />
+        <Route exact path="/portfolio" component={Home} />
         <Route path="/projects" component={Projects} />
         
         <div className="nav">
-            <Link to="/" className="nav-item">Home</Link>
-            <Link to="/#about" className="nav-item" smooth>About</Link>
+            <Link to="/portfolio" className="nav-item">Home</Link>
+            <Link to="/portfolio#about" className="nav-item" smooth>About</Link>
             <Link to="/projects" className="nav-item">Projects</Link>
             <Link to="#contact" className='nav-item' smooth>Contact</Link>
         </div>
