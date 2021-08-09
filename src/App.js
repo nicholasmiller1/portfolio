@@ -17,7 +17,7 @@ function App() {
             <Link to="/" className="nav-item">Home</Link>
             <Link to="/#about" className="nav-item" smooth>About</Link>
             <Link to="/projects" className="nav-item">Projects</Link>
-            <Link to="/#contact" className='nav-item' smooth>Contact</Link>
+            <Link to="#contact" className='nav-item' smooth>Contact</Link>
         </div>
       </div>
     </Router>

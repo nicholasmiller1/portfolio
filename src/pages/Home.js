@@ -4,6 +4,7 @@ import Header from '../components/header.js';
 import Footer from '../components/footer.js';
 import Thumbnail from '../components/thumbnail.js';
 import {HashLink as Link} from 'react-router-hash-link';
+import projectsData from '../projects.json';
 
 const Home = (props) => {
     return (
@@ -23,12 +24,11 @@ const Home = (props) => {
                 <h1>Highlighted Projects</h1>
                 <h3>Some of my personal favorite projects that I've worked on</h3>
                 <div id="home-project-container">
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet."/>
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="This is an example project thumbnail"/>
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="This is an example project thumbnail"/>
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="This is an example project thumbnail"/>
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="This is an example project thumbnail"/>
-                    <Thumbnail link="https://github.com" image={require('../assets/header-photo.jpg').default} title="test project" description="This is an example project thumbnail"/>
+                    {projectsData.slice(0, 6).map((project, key) => {
+                        return (
+                            <Thumbnail title={project.title} description={project.description} image={require(`../assets/${project.image}`).default} link={project.link} key={key}/>
+                        );
+                    })}
                 </div>
                 <Link to="/projects" id="projects-button">See More</Link>
             </section>
