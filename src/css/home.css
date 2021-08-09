@@ -21,6 +21,7 @@ h1 {
     "b c";
   column-gap: 2em;
   grid-template-columns: 2fr 1fr;
+  grid-template-rows: 5em 1fr;
 }
 
 .home-about > h1 {
@@ -36,6 +37,7 @@ h1 {
   font-family: Roboto, sans-serif;
   text-align: left;
   line-height: 1.3em;
+  font-size: 20px;
   /* letter-spacing: 1px; */
 }
 

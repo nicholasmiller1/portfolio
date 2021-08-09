@@ -14,10 +14,16 @@ const Home = (props) => {
                 <div className="home-about">
                     <h1>About Me</h1>
                     <span>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut sed massa leo. Donec finibus velit dignissim arcu elementum tristique. Ut sed dignissim nibh, sed vulputate tortor. Curabitur tincidunt mi in ante vulputate hendrerit. Donec vehicula posuere ex, eget lobortis lacus pharetra ut. Quisque sit amet hendrerit leo. Etiam aliquam magna massa, vel maximus odio fringilla vitae. Proin efficitur placerat tristique. Aliquam ullamcorper augue a augue tristique, a gravida nulla egestas.</p> 
-                        <p>Vivamus elementum orci tellus, vel ornare nulla pharetra vitae. Suspendisse semper ligula congue dolor eleifend, at mattis orci elementum. Ut pulvinar nec tortor sed rhoncus. Pellentesque finibus erat mauris, vitae viverra mi mollis nec. Sed non feugiat dolor. Vivamus malesuada tincidunt lorem hendrerit consequat. Nulla feugiat justo nisl, at feugiat nibh tincidunt sed. Vestibulum nec nisi ligula. Donec turpis ante, interdum eu pharetra a, varius ac ligula. Nam id iaculis mi, non luctus dolor. Morbi augue nulla, ultrices in lobortis ut, mattis quis ligula. Nam mauris augue, iaculis nec ullamcorper id, convallis in arcu. Donec ipsum leo, consectetur id dictum at, vehicula tempus mi. Nam purus augue, sagittis id libero a, finibus commodo nisl.</p>
+                        <p>My name is Nicholas Miller and I am a 2nd year undergraduate student at the University of Virginia 
+                            majoring in Computer Science and minoring in Engineering Business. I enjoy working in a wide variety 
+                            of fields of software development ranging from computer vision to ai and machine learning to robotics. 
+                            I try to learn something new or improve upon old skills with every project.
+                        </p> 
+                        <p>Outside of school and work, I also enjoy a number of other hobbies. These include rock climbing, archery,
+                            playing videogames, and working on personal projects.
+                        </p>
                     </span>
-                    <img src={require('../assets/header-photo.jpg').default} alt="temporary" />
+                    <img src={require('../assets/about-photo.JPEG').default} alt="temporary" />
                 </div>
             </section>
             <section className="home-projects">
@@ -30,7 +36,7 @@ const Home = (props) => {
                         );
                     })}
                 </div>
-                <Link to="/projects" id="projects-button">See More</Link>
+                <Link to="/projects#top" id="projects-button">See More</Link>
             </section>
             <Footer/>
         </div>
