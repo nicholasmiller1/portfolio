@@ -1,56 +1,62 @@
 [
     {
-        "title": "Test Project 1",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Tetris AI",
+        "description": "Using the Java Processing API, I rebuilt the classic game of Tetris from scratch. I then created an AI program to play the game as well as possible. The AI uses a modified A-star graph algorithm to generate all the possible end positions of a piece and the paths to them, then chooses the best position based on a collection of factors.",
+        "image": "tetrisai-photo.png",
+        "link": "https://github.com/nicholasmiller1/tetris-ai"
     },
     {
-        "title": "Test Project 2",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "3D Motion Control",
+        "description": "I used the JoyShockLibrary to interface with a Nintendo Switch joycon controller and read both accelerometer and gyroscope data. I was then able to use this data to determine the orientation and position of the joycon in 3D space and visualize it. In the future, I want to reprogram my current progress in C++ to improve performance then try to interface with the joycon directly without an external library.",
+        "image": "motion-photo.png",
+        "link": "https://github.com/nicholasmiller1/3D-Motion-Control"
     },
     {
-        "title": "Test Project 3",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Multiplayer Online Gamepack",
+        "description": "I built a web app that allows multiplayer online play of games designed to be modular and easy to incorporate new games. The app uses web socket connections through SocketIO to connect players online and is able to support multiple rooms simultaneously. This allows different players to play separate lobbies and games at the same time. The live website can be found here: https://multiplayer-online-gamepack.herokuapp.com/",
+        "image": "multiplayer-photo.png",
+        "link": "https://github.com/nicholasmiller1/multiplayer-online"
     },
     {
-        "title": "Test Project 4",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Portfolio Website",
+        "description": "This very website, I created it to advertise my projects and serve as a personal portfolio. The website was built from scratch using ReactJS and deployed through GitHub Pages.",
+        "image": "portfolio-photo.png",
+        "link": "https://github.com/nicholasmiller1/portfolio"
     },
     {
-        "title": "Test Project 5",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Hangman Guesser",
+        "description": "A simple project and one of my first with C++. I created a text-based program that provides the statiscally best (or at least very good) guesses in a game of hangman given the current known information. The program searches through a large dictionary file and calculates the current best guess dependent on a regex string generated from known letters and failed guesses.",
+        "image": "hangman-photo.png",
+        "link": "https://github.com/nicholasmiller1/Hangman-Guesser"
     },
     {
-        "title": "Test Project 6",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "ILITE Robotics Website",
+        "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. The CMS was designed so that other sub-teams within our robotics team could quickly and easily update the website without the need to directly change the code. The live website can be found here: https://ilite.us/.  *Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
+        "image": "ilite-photo.png",
+        "link": "https://github.com/GailDrake/iliteus"
     },
     {
-        "title": "Test Project 7",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Fourier Transform Display",
+        "description": "In my first real project using Python, I created a program to calculate and visualize a fourier transform approximation of a given complete path. The visualization takes the form of a series of rotating vectors whose tip draws out the path. In the future, I hope to enable the program to directly take in svg files and generate the path itself to perform a fourier transform on.",
+        "image": "fourier-photo.png",
+        "link": "https://github.com/nicholasmiller1/PycharmProjects/tree/master/FourierTransform"
     },
     {
-        "title": "Test Project 8",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Blog App",
+        "description": "This project was my first experience with external databases. I built a blog web app using ReactJS that used an external Firebase database to store and manage blog posts. I also added an login/authentication system that required users to register in order to post and like. In addition, the database tracked individual user's posts and likes and allowed posts to be sorted by various criteria.",
+        "image": "blog-photo.png",
+        "link": "https://github.com/nicholasmiller1/blog-app"
     },
     {
-        "title": "Test Project 9",
-        "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sed mauris enim. Fusce eget quam ac ipsum porttitor tempor ac quis justo. Aenean placerat in ante sed accumsan. Vestibulum laoreet.",
-        "image": "header-photo.jpg",
-        "link": "https://github.com"
+        "title": "Hospital Price Comparator",
+        "description": "I completed this project with a team of three people for the HooHacks 2021 Hackathon over a 24 hour period. We built an app that pulled hospital price data from a large database we gathered and allowed users to compare prices among different hospitals and services according to a variety of criteria. If a given a particular hospital's price data is not found in our database, we added a feature for user's to upload a csv file containing a hospital's price data (now required to be accessible in the U.S.) to our database for comparison. The hackathon devpost can be found here: https://devpost.com/software/hospital-app",
+        "image": "hospital-photo.jpg",
+        "link": "https://github.com/nicholasmiller1/hoohack2021-hospitalapp"
+    },
+    {
+        "title": "Climate Request App",
+        "description": "A simple project I made to explore API requests. I built a web app that requests future predicted climate data from The World Bank climate api based on country and decade. The app can display either temperature or precipitation data in both monthly average and annual average forms.",
+        "image": "climate-photo.png",
+        "link": "https://github.com/nicholasmiller1/social-impact-app"
     }
 ]
