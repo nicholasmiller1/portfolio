@@ -7,6 +7,8 @@
   margin: 30px 15px;
   padding: 20px;
   padding-bottom: 15px;
+  display: flex;
+  flex-direction: column;
 }
 
 .thumbnail-image {
@@ -35,6 +37,7 @@
 
 .thumbnail-link {
   float: right;
+  text-align: right;
   color: #3d91db;
   text-decoration: none;
   margin-top: 10px;
@@ -43,4 +46,8 @@
 
 .thumbnail-link:hover {
   color: var(--primary-color);
+}
+
+#thumbnail-content {
+  flex: auto;
 }

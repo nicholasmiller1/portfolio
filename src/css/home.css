@@ -89,3 +89,22 @@ h1 {
 #projects-button:hover {
   background-color: #a7a7a7;
 }
+
+@media only screen and (max-width: 900px) {
+  #about {
+    padding: 5em 0;
+  }
+
+  .home-about {
+    grid-template-areas:
+      "a"
+      "b"
+      "c";
+    column-gap: 0;
+    grid-template-columns: 1fr;
+  }
+
+  .home-about > img {
+    max-width: 100%;
+  }
+}

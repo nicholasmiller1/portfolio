@@ -10,36 +10,7 @@ html {
   text-align: center;
 }
 
-.nav {
-  display: flex;
-  flex-direction: row;
-  justify-content: flex-end;
-  position: absolute;
-  top: 0;
-  right: 0;
-  width: 100vw;
-  height: 50px;
-  padding: 25px 0;
-  margin-right: 30px;
-  background: transparent;
-  z-index: 5;
-}
-
-.nav-item {
-  float: right;
-  color: var(--primary-color);
-  text-decoration: none;
-  font-family: Roboto, futura-pt, Futura, sans-serif;
-  font-weight: 700;
-  font-style: normal;
-  letter-spacing: 3px;
-  font-size: 1em;
-  line-height: 2em;
-  text-transform: uppercase;
-  margin: 5px 20px;
-  padding: 5px;
-}
-
-.nav-item:hover {
-  color: (--secondary-color);
+.App.no-scroll {
+  height: 100vh;
+  overflow-y: hidden;
 }

@@ -13,13 +13,13 @@
     },
     {
         "title": "Multiplayer Online Gamepack",
-        "description": "I built a web app that allows multiplayer online play of games designed to be modular and easy to incorporate new games. The app uses web socket connections through SocketIO to connect players online and is able to support multiple rooms simultaneously. This allows different players to play separate lobbies and games at the same time. The live website can be found here: https://multiplayer-online-gamepack.herokuapp.com/",
+        "description": "I built a web app that allows multiplayer online play of games designed to be modular and easy to incorporate new games. The app uses web socket connections through SocketIO to connect players online and is able to support multiple rooms simultaneously. This allows different players to play separate lobbies and games at the same time. <br/><br/>The live website can be found <a href='https://multiplayer-online-gamepack.herokuapp.com/' target='_blank' rel='noreferrer'>here</a>",
         "image": "multiplayer-photo.png",
         "link": "https://github.com/nicholasmiller1/multiplayer-online"
     },
     {
         "title": "Portfolio Website",
-        "description": "This very website, I created it to advertise my projects and serve as a personal portfolio. The website was built from scratch using ReactJS and deployed through GitHub Pages.",
+        "description": "This very website. I created it to advertise my projects and serve as a personal portfolio as well as an extension to my resume. The website was built from scratch using ReactJS as well as simple HTML, CSS, and JavaScript technologies. The website is built and deployed through GitHub Pages.",
         "image": "portfolio-photo.png",
         "link": "https://github.com/nicholasmiller1/portfolio"
     },
@@ -31,7 +31,7 @@
     },
     {
         "title": "ILITE Robotics Website",
-        "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. The CMS was designed so that other sub-teams within our robotics team could quickly and easily update the website without the need to directly change the code. The live website can be found here: https://ilite.us/.  *Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
+        "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. <br/><br/>The live website can be found <a href='https://ilite.us/' target='_blank' rel='noreferrer'>here</a>.<br/>*Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
         "image": "ilite-photo.png",
         "link": "https://github.com/GailDrake/iliteus"
     },
@@ -43,13 +43,13 @@
     },
     {
         "title": "Blog App",
-        "description": "This project was my first experience with external databases. I built a blog web app using ReactJS that used an external Firebase database to store and manage blog posts. I also added an login/authentication system that required users to register in order to post and like. In addition, the database tracked individual user's posts and likes and allowed posts to be sorted by various criteria.",
+        "description": "This project was my first experience with external databases. I built a blog web app using ReactJS that used an external Firebase database to store and manage blog posts. I also added an login/authentication system that required users to register in order to post and like. In addition, the database tracked individual user's posts and likes and allowed posts to be sorted by various criteria. <br/><br/>The live website can be found <a href='https://jovial-bartik-46166a.netlify.app/' target='_blank' rel='noreferrer'>here</a>.<br/>",
         "image": "blog-photo.png",
         "link": "https://github.com/nicholasmiller1/blog-app"
     },
     {
         "title": "Hospital Price Comparator",
-        "description": "I completed this project with a team of three people for the HooHacks 2021 Hackathon over a 24 hour period. We built an app that pulled hospital price data from a large database we gathered and allowed users to compare prices among different hospitals and services according to a variety of criteria. If a given a particular hospital's price data is not found in our database, we added a feature for user's to upload a csv file containing a hospital's price data (now required to be accessible in the U.S.) to our database for comparison. The hackathon devpost can be found here: https://devpost.com/software/hospital-app",
+        "description": "I completed this project with a team of three people for the HooHacks 2021 Hackathon over a 24 hour period. We built an app that pulled hospital price data from a large database we gathered and allowed users to compare prices among different hospitals and services according to a variety of criteria. If a given a particular hospital's price data is not found in our database, we added a feature for user's to upload a csv file containing a hospital's price data (now required to be accessible in the U.S.) to our database for comparison. <br/><br/>The hackathon devpost can be found <a href='https://devpost.com/software/hospital-app' target='_blank' rel='noreferrer'>here</a>.",
         "image": "hospital-photo.jpg",
         "link": "https://github.com/nicholasmiller1/hoohack2021-hospitalapp"
     },
