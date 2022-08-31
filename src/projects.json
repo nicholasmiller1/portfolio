@@ -18,6 +18,30 @@
         "link": "https://github.com/nicholasmiller1/multiplayer-online"
     },
     {
+      "title": "Embedded Computing Robot",
+      "description": "As part of my embedded computing class, I designed and implemented a robust finite state machine for the TI-RSLK Max robot to solve a maze, follow complex line patterns with self-correction capabilities, and handle unexpected interruptions or resistance to operation. The project spanned a large range of progressive functionalities, each building upon the last. Initially, I built low-level functionality to handle motors, power control, and sensors using SPI, interrupts, and timer modules. Then, I built upon those foundations to implement the state machine and other functions.",
+      "image": "embedded-computing-robot-photo.png",
+      "link": "https://github.com/nicholasmiller1/Robot-Line-Follower"
+    },
+    {
+      "title": "Word of Mouth Recipe Site",
+      "description": "This website was built as part of a project for one of my college courses. I worked as part of a team of five developers working using an agile scrum methodology as both the Dev-ops Manager and a key developer. The website was built using the Django framework and a postgreSQL database backend. <br/><br/>The live website can be found <a href='https://group-project-a22.herokuapp.com' target='_blank' rel='noreferrer'>here</a>.",
+      "image": "wom-site-photo.png",
+      "link": "https://github.com/uva-cs3240-s22/group-project-a-22"
+    },
+    {
+      "title": "Janko Whiteboard",
+      "description": "I completed this project with a team of three people for the HooHacks 2022 Hackathon over a 24 hour period. We built a collaborative online whiteboard app that can support multiple concurrent sessions at different urls, each of which can be viewed and edited by multiple people at the same time. The app was built using Django and PostgreSQL to handle the frontend and simple database storage with websockets brokered over Redis used to handle realtime updates. <br/><br/>The hackathon devpost can be found <a href='https://devpost.com/software/janko-collaborative-whiteboard' target='_blank' rel='noreferrer'>here</a> and the live site can be found <a href='https://hoohacks22-janko.herokuapp.com/editpdf/editor/whiteboard' target='_blank' rel='noreferrer'>here</a>.",
+      "image": "janko-whiteboard-photo.png",
+      "link": "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor"
+    },
+    {
+      "title": "ILITE Robotics Website",
+      "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. <br/><br/>The live website can be found <a href='https://ilite.us/' target='_blank' rel='noreferrer'>here</a>.<br/>*Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
+      "image": "ilite-photo.png",
+      "link": "https://github.com/GailDrake/iliteus"
+    },
+    {
         "title": "Portfolio Website",
         "description": "This very website. I created it to advertise my projects and serve as a personal portfolio as well as an extension to my resume. The website was built from scratch using ReactJS as well as simple HTML, CSS, and JavaScript technologies. The website is built and deployed through GitHub Pages.",
         "image": "portfolio-photo.png",
@@ -28,12 +52,6 @@
         "description": "A simple project and one of my first with C++. I created a text-based program that provides the statiscally best (or at least very good) guesses in a game of hangman given the current known information. The program searches through a large dictionary file and calculates the current best guess dependent on a regex string generated from known letters and failed guesses.",
         "image": "hangman-photo.png",
         "link": "https://github.com/nicholasmiller1/Hangman-Guesser"
-    },
-    {
-        "title": "ILITE Robotics Website",
-        "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. <br/><br/>The live website can be found <a href='https://ilite.us/' target='_blank' rel='noreferrer'>here</a>.<br/>*Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
-        "image": "ilite-photo.png",
-        "link": "https://github.com/GailDrake/iliteus"
     },
     {
         "title": "Fourier Transform Display",

@@ -14,13 +14,20 @@ const Home = (props) => {
                 <div className="home-about">
                     <h1>About Me</h1>
                     <span>
-                        <p>My name is Nicholas Miller and I am a 2nd year undergraduate student at the University of Virginia 
-                            majoring in Computer Science and minoring in Engineering Business. I enjoy working in a wide variety 
-                            of fields of software development ranging from computer vision to AI and machine learning to robotics. 
-                            I try to learn something new or improve upon old skills with every project.
+                        <p>
+                          My name is Nicholas Miller and I am a 3rd year undergraduate student at the University of Virginia 
+                          majoring in Computer Science and minoring in Engineering Business. I am planning to graduate this year in
+                          Spring 2023.
+                        </p>
+                        <p>
+                          I am a full-stack developer with experience in numerous frameworks and languages and a preference for 
+                          backend development. Beyond full-stack development, I am always seeking to learn new things, expand my 
+                          skill set, and explore other areas of software development. As part of this, I engage in many personal 
+                          programming projects in a variety of disciplines ranging from AI to 3D graphics to robotics.
                         </p> 
-                        <p>Outside of school and work, I also enjoy a number of other hobbies. These include rock climbing, archery,
-                            playing videogames, and working on personal projects.
+                        <p>
+                          Outside of school and work, I also enjoy a number of other hobbies. These include rock climbing, archery,
+                          playing videogames, and working on personal projects.
                         </p>
                     </span>
                     <img src={require('../assets/about-photo.JPEG').default} alt="temporary" />
