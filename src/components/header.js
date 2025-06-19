@@ -34,7 +34,7 @@ const Header = ({title, subtitle, image}) => {
                 </div>
             </div>
 
-            {image && <img id="header-photo"src={require('../assets/header-photo.jpg').default} alt="Header Profile"/>}
+            {image && <img id="header-photo"src={`${process.env.PUBLIC_URL}/assets/header-photo.jpg`} alt="Header Profile"/>}
             <div id="header-text">
                 <h1>{title}</h1>
                 <p>{subtitle}</p>

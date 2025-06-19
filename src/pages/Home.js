@@ -26,7 +26,7 @@ const Home = (props) => {
                           and videogames.
                         </p>
                     </span>
-                    <img src={require('../assets/about-photo.JPEG').default} alt="temporary" />
+                    <img src={`${process.env.PUBLIC_URL}/assets/about-photo.JPEG`} alt="temporary" />
                 </div>
             </section>
             <section className="home-projects">
@@ -35,7 +35,7 @@ const Home = (props) => {
                 <div id="home-project-container">
                     {projectsData.slice(0, 6).map((project, key) => {
                         return (
-                            <Thumbnail title={project.title} description={project.description} image={require(`../assets/${project.image}`).default} link={project.link} key={key}/>
+                            <Thumbnail title={project.title} description={project.description} image={`${process.env.PUBLIC_URL}/assets/${project.image}`} link={project.link} key={key}/>
                         );
                     })}
                 </div>

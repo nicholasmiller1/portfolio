@@ -12,7 +12,7 @@ const Projects = (props) => {
             <section className="projects-list">
                 {projectsData.map((project, key) => {
                     return (
-                        <Thumbnail title={project.title} description={project.description} image={require(`../assets/${project.image}`).default} link={project.link} key={key}/>
+                        <Thumbnail title={project.title} description={project.description} image={`${process.env.PUBLIC_URL}/assets/${project.image}`} link={project.link} key={key}/>
                     );
                 })}
             </section>
