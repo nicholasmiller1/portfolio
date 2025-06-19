@@ -8,7 +8,7 @@ import projectsData from '../projects.json';
 const Projects = (props) => {
     return (
         <div className="projects" id="top">
-            <Header title="Projects" subtitle="A collection of the projects I have worked on"/>
+            <Header title="Projects" subtitle="A collection of the personal projects I have worked on"/>
             <section className="projects-list">
                 {projectsData.map((project, key) => {
                     return (

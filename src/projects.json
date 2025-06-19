@@ -13,7 +13,7 @@
     },
     {
         "title": "Multiplayer Online Gamepack",
-        "description": "I built a web app that allows multiplayer online play of games designed to be modular and easy to incorporate new games. The app uses web socket connections through SocketIO to connect players online and is able to support multiple rooms simultaneously. This allows different players to play separate lobbies and games at the same time. <br/><br/>The live website can be found <a href='https://multiplayer-online-gamepack.herokuapp.com/' target='_blank' rel='noreferrer'>here</a>",
+        "description": "I built a web app that allows multiplayer online play of games designed to be modular and easy to incorporate new games. The app uses web socket connections through SocketIO to connect players online and is able to support multiple rooms simultaneously. This allows different players to play separate lobbies and games at the same time.",
         "image": "multiplayer-photo.png",
         "link": "https://github.com/nicholasmiller1/multiplayer-online"
     },
@@ -25,19 +25,19 @@
     },
     {
       "title": "Word of Mouth Recipe Site",
-      "description": "This website was built as part of a project for one of my college courses. I worked as part of a team of five developers working using an agile scrum methodology as both the Dev-ops Manager and a key developer. The website was built using the Django framework and a postgreSQL database backend. <br/><br/>The live website can be found <a href='https://group-project-a22.herokuapp.com' target='_blank' rel='noreferrer'>here</a>.",
+      "description": "This website was built as part of a project for one of my college courses. I worked as part of a team of five developers working using an agile scrum methodology as both the Dev-ops Manager and a key developer. The website was built using the Django framework and a postgreSQL database backend.",
       "image": "wom-site-photo.png",
       "link": "https://github.com/uva-cs3240-s22/group-project-a-22"
     },
     {
       "title": "Janko Whiteboard",
-      "description": "I completed this project with a team of three people for the HooHacks 2022 Hackathon over a 24 hour period. We built a collaborative online whiteboard app that can support multiple concurrent sessions at different urls, each of which can be viewed and edited by multiple people at the same time. The app was built using Django and PostgreSQL to handle the frontend and simple database storage with websockets brokered over Redis used to handle realtime updates. <br/><br/>The hackathon devpost can be found <a href='https://devpost.com/software/janko-collaborative-whiteboard' target='_blank' rel='noreferrer'>here</a> and the live site can be found <a href='https://hoohacks22-janko.herokuapp.com/editpdf/editor/whiteboard' target='_blank' rel='noreferrer'>here</a>.",
+      "description": "I completed this project with a team of three people for the HooHacks 2022 Hackathon over a 24 hour period. We built a collaborative online whiteboard app that can support multiple concurrent sessions at different urls, each of which can be viewed and edited by multiple people at the same time. The app was built using Django and PostgreSQL to handle the frontend and simple database storage with websockets brokered over Redis used to handle realtime updates. <br/><br/>The hackathon devpost can be found <a href='https://devpost.com/software/janko-collaborative-whiteboard' target='_blank' rel='noreferrer'>here</a>.",
       "image": "janko-whiteboard-photo.png",
       "link": "https://github.com/nicholasmiller1/hoohacks2022-pdfeditor"
     },
     {
       "title": "ILITE Robotics Website",
-      "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system. <br/><br/>The live website can be found <a href='https://ilite.us/' target='_blank' rel='noreferrer'>here</a>.<br/>*Disclaimer: The website has continued development past my graduation from the team and the current state may not reflect my contributions.*",
+      "description": "A group project I lead with a team of people as part of my high school robotics team to build and maintain the team website. We used the GatsbyJS framework on top of the ReactJS library to create the website and interface with a custom-built content management system.",
       "image": "ilite-photo.png",
       "link": "https://github.com/GailDrake/iliteus"
     },
@@ -61,7 +61,7 @@
     },
     {
         "title": "Blog App",
-        "description": "This project was my first experience with external databases. I built a blog web app using ReactJS that used an external Firebase database to store and manage blog posts. I also added an login/authentication system that required users to register in order to post and like. In addition, the database tracked individual user's posts and likes and allowed posts to be sorted by various criteria. <br/><br/>The live website can be found <a href='https://jovial-bartik-46166a.netlify.app/' target='_blank' rel='noreferrer'>here</a>.<br/>",
+        "description": "This project was my first experience with external databases. I built a blog web app using ReactJS that used an external Firebase database to store and manage blog posts. I also added an login/authentication system that required users to register in order to post and like. In addition, the database tracked individual user's posts and likes and allowed posts to be sorted by various criteria.",
         "image": "blog-photo.png",
         "link": "https://github.com/nicholasmiller1/blog-app"
     },

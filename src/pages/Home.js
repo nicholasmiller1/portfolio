@@ -9,25 +9,21 @@ import projectsData from '../projects.json';
 const Home = (props) => {
     return (
         <div className="home">
-            <Header title="Nicholas Miller" subtitle="Motivated and passionate software developer" image/>
+            <Header title="Nicholas Miller" subtitle="Motivated and passionate software engineer" image/>
             <section id="about">
                 <div className="home-about">
                     <h1>About Me</h1>
                     <span>
                         <p>
-                          My name is Nicholas Miller and I am a 3rd year undergraduate student at the University of Virginia 
-                          majoring in Computer Science and minoring in Engineering Business. I am planning to graduate this year in
-                          Spring 2023.
+                          Hi, I'm Nicholas Miller — a full-stack software engineer with experience in numerous frameworks and languages. 
+                          I earned my B.S. in Computer Science from the University of Virginia along with a minor in Engineering Business. 
+                          I am an avid learner who is always seeking to learn new things, expand my skill set, and sate my curiosity. 
+                          As such, I often explore exciting concepts that tackle new areas of software engineering by engaging in my own personal 
+                          projects. These have been in a variety of disciplines ranging from AI to 3D graphics to robotics and I love watching my ideas come to life.
                         </p>
                         <p>
-                          I am a full-stack developer with experience in numerous frameworks and languages and a preference for 
-                          backend development. Beyond full-stack development, I am always seeking to learn new things, expand my 
-                          skill set, and explore other areas of software development. As part of this, I engage in many personal 
-                          programming projects in a variety of disciplines ranging from AI to 3D graphics to robotics.
-                        </p> 
-                        <p>
-                          Outside of school and work, I also enjoy a number of other hobbies. These include rock climbing, archery,
-                          playing videogames, and working on personal projects.
+                          Outside of software, I also enjoy a number of other hobbies including rock climbing, archery,
+                          and videogames.
                         </p>
                     </span>
                     <img src={require('../assets/about-photo.JPEG').default} alt="temporary" />
