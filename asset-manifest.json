@@ -1,27 +1,13 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.0c1b1360.css",
-    "main.js": "/portfolio/static/js/main.57e46dc2.js",
-    "static/media/embedded-computing-robot-photo.png": "/portfolio/static/media/embedded-computing-robot-photo.dc351c125a1c03948843.png",
-    "static/media/header-photo.jpg": "/portfolio/static/media/header-photo.3dbba5154e3bc6a5c199.jpg",
-    "static/media/ilite-photo.png": "/portfolio/static/media/ilite-photo.1c4a5e939de135aaf2f0.png",
-    "static/media/wom-site-photo.png": "/portfolio/static/media/wom-site-photo.212e44766700e614e731.png",
-    "static/media/about-photo.JPEG": "/portfolio/static/media/about-photo.a67b0cfcd0c0de438213.JPEG",
-    "static/media/portfolio-photo.png": "/portfolio/static/media/portfolio-photo.539d72ebced4a9876e68.png",
-    "static/media/janko-whiteboard-photo.png": "/portfolio/static/media/janko-whiteboard-photo.e7a96856698f8a8bb81a.png",
-    "static/media/blog-photo.png": "/portfolio/static/media/blog-photo.43f539b7b21124337a2e.png",
-    "static/media/climate-photo.png": "/portfolio/static/media/climate-photo.632139a458d0ed934eb6.png",
-    "static/media/hospital-photo.jpg": "/portfolio/static/media/hospital-photo.4048ef88683fbf9cdf08.jpg",
-    "static/media/fourier-photo.png": "/portfolio/static/media/fourier-photo.1bf08a8d96aab7852fa6.png",
-    "static/media/hangman-photo.png": "/portfolio/static/media/hangman-photo.406054c5eb0fe2f3140d.png",
-    "static/media/multiplayer-photo.png": "/portfolio/static/media/multiplayer-photo.f78cb0205fbf6bf62ad2.png",
-    "static/media/tetrisai-photo.png": "/portfolio/static/media/tetrisai-photo.7ae3684b10f78a8c815f.png",
+    "main.js": "/portfolio/static/js/main.f3eef5c9.js",
     "index.html": "/portfolio/index.html",
     "main.0c1b1360.css.map": "/portfolio/static/css/main.0c1b1360.css.map",
-    "main.57e46dc2.js.map": "/portfolio/static/js/main.57e46dc2.js.map"
+    "main.f3eef5c9.js.map": "/portfolio/static/js/main.f3eef5c9.js.map"
   },
   "entrypoints": [
     "static/css/main.0c1b1360.css",
-    "static/js/main.57e46dc2.js"
+    "static/js/main.f3eef5c9.js"
   ]
 }
